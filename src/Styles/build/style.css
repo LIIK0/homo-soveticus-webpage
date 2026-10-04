@@ -1,0 +1,44 @@
+@import url("../Keyframes/keyframes.css");
+@import url("../fonts/fonts.css");
+body {
+  margin: 0;
+  background-color: black;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+header img {
+  opacity: 0%;
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  animation: fadeIn 2.5s ease forwards;
+}
+header h1 {
+  color: white;
+  margin: 0;
+  font-family: "nokia", sans-serif;
+  position: absolute;
+  font-size: 128px;
+  animation: titleFadeIn 2s ease forwards;
+}
+header p {
+  opacity: 0;
+  position: absolute;
+  color: white;
+  top: 650px;
+  font-size: 24px;
+  font-family: "nokia", sans-serif;
+  width: 900px;
+  text-align: center;
+  animation-name: pHeader;
+  animation-delay: 2s;
+  animation-duration: 2s;
+  animation-timing-function: ease;
+  animation-fill-mode: forwards;
+}
+
+/*# sourceMappingURL=style.css.map */
